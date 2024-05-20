@@ -202,6 +202,6 @@ Aqui estão as referências usadas no projeto.
 1.  <https://https://figma.com/>
 2.  <https://fonts.google.com/>
 3.  <https://www.youtube.com/watch?v=jh1GXnFw7rM&t=337s/>
-4.  <https://www.behance.net/gallery/65114211/ES-app-p-educacao-Sexual?tracking_source=search_projects|educacao+sexual&l=50&/>
+4.  <https://www.behance.net/>
 5.  <https://www.freepik.com/>
 
