@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Artigos_Item_2">
+
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="709dp"
+        android:layout_height="701dp"
+        android:layout_marginBottom="96dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.392"
+        app:srcCompat="@drawable/artigos_item_3" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/retangulo_artigos" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="342dp"
+        android:layout_height="251dp"
+        android:layout_marginTop="165dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="A vida dos casais, as dificuldades para se relacionar, o desejo sexual e os desafios da convivência a dois, esses e outros temas fazem parte do podcast Relacionamentos e Sexualidade com \nMaria Helena Barros.  "
+        android:textAlignment="center"
+        android:textColor="#B66E6F"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView18" />
+
+    <Button
+        android:id="@+id/visitarSite"
+        android:layout_width="230dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/rounded_buttom2"
+        android:backgroundTint="#F6D169"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Saber Mais"
+        android:textAllCaps="false"
+        android:textColor="#4D4250"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

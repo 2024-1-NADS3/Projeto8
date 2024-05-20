@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/emailLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:width="300dp"
+        android:drawableLeft="@drawable/email_1"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_semibold"
+        android:hint="Email"
+        android:inputType="text"
+        android:textColor="#4D4250"
+        android:textColorHint="#4D4250"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/maisVistos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Entrar em sua conta"
+        android:textColor="#4D4250"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/senhaLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:width="300dp"
+        android:drawableLeft="@drawable/senha_1"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_semibold"
+        android:hint="Senha"
+        android:inputType="text"
+        android:textColor="#4D4250"
+        android:textColorHint="#4D4250"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/emailLogin"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/emailLogin"
+        app:layout_constraintTop_toBottomOf="@+id/emailLogin" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="259dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/rounded_buttom2"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/solicitarRedefinicao" />
+
+    <Button
+        android:id="@+id/solicitarRedefinicao"
+        android:layout_width="260dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/rounded_buttom"
+        android:backgroundTint="#CF8884"
+        android:fontFamily="@font/poppins_semibold"
+        android:includeFontPadding="false"
+        android:onClick="fazerLogin"
+        android:text="Continuar"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/senhaLogin"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="@+id/senhaLogin"
+        app:layout_constraintTop_toBottomOf="@+id/senhaLogin" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="96dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="52dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:onClick="Cadastrar"
+        android:text="Cadastrar"
+        android:textColor="#E6A972"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/button1"
+        app:layout_constraintTop_toBottomOf="@+id/solicitarRedefinicao" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="173dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="124dp"
+        android:fontFamily="@font/poppins"
+        android:onClick="EsqueceuASenha"
+        android:text="Esqueceu a senha?"
+        android:textColor="#4D4250"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/button1"
+        app:layout_constraintEnd_toEndOf="@+id/senhaLogin"
+        app:layout_constraintTop_toBottomOf="@+id/senhaLogin"
+        app:layout_constraintVertical_bias="0.34" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/poppins"
+        android:text="Não possui uma conta?"
+        android:textColor="#4D4250"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/solicitarRedefinicao"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/solicitarRedefinicao" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="290dp"
+        android:layout_height="275dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="@+id/maisVistos"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="@+id/maisVistos"
+        app:layout_constraintTop_toBottomOf="@+id/maisVistos"
+        app:srcCompat="@drawable/logo_2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

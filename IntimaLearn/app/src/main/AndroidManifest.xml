@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IntimaLearn"
+        tools:targetApi="31">
+        <activity
+            android:name=".RedefinirSenhaActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".EsqueceuSenhaActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".Artigos_Item_2"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_18_Tela_3"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_18_Tela_2"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_18_Tela_1"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_18_Tela_0"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_17_Tela_3"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_17_Tela_2"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_17_Tela_1"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_17_Tela_0"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_16_Tela_3"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_16_Tela_2"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_16_Tela_1"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_16_Tela_0"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_15_Tela_3"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_15_Tela_2"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_15_Tela_1"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_15_Tela_0"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_14_Tela_3"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_14_Tela_2"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_14_Tela_1"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_14_Tela_0"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_13_Tela_3"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_13_Tela_2"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_13_Tela_1"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_13_Tela_0"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_12_Tela_3"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_12_Tela_2"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_12_Tela_1"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_12_Tela_0"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_11_Tela_3"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_11_Tela_1"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_11_Tela_2"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_11_Tela_0"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_10_Tela_3"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_10_Tela_2"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_10_Tela_1"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_10_Tela_0"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_9_Tela_3"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_9_Tela_2"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_9_Tela_1"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_9_Tela_0"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_8_Tela_3"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_8_Tela_2"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_8_Tela_1"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_8_Tela_0"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_7_Tela_3"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_7_Tela_2"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_7_Tela_1"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_7_Tela_0"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_6_Tela_3"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_6_Tela_2"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_6_Tela_1"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_6_Tela_0"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_5_Tela_3"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_5_Tela_2"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_5_Tela_1"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_5_Tela_0"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_4_Tela_2"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_4_Tela_3"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_4_Tela_1"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_4_Tela_0"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_3_Tela_3"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_3_Tela_2"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_3_Tela_1"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_2_Tela_3"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_2_Tela_2"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_2_Tela_1"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_3_Tela_0"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_2_Tela_0"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_1_Tela_3"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_1_Tela_2"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_1_Tela_1"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Trilha_1_Tela_0"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Tela_Splash_3"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Tela_Splash_2"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Tela_Splash_1"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Inicio"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DeletarConta"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Artigos_Mais_Vistos"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Artigos_Recomendado"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Artigos_Item_1"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Tela_Splash"
+            android:exported="true"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

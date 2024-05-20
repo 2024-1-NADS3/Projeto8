@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".Trilha_4_Tela_1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="59dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="@+id/button5"
+        app:layout_constraintTop_toTopOf="@+id/button5"
+        app:layout_constraintVertical_bias="0.434"
+        app:srcCompat="@drawable/a" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="333dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="408dp"
+        android:background="@drawable/rounded_buttom_5"
+        android:backgroundTint="#B1A8B4"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/opcao01"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/opcao01"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/opcao04"
+        android:layout_width="333dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="664dp"
+        android:background="@drawable/rounded_button_4"
+        android:backgroundTint="#4D4250"
+        android:fontFamily="@font/poppins_semibold"
+        android:paddingStart="65sp"
+        android:text="Diabetes"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="333dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/rounded_buttom_5"
+        android:backgroundTint="#B1A8B4"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/opcao01"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/opcao01"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/opcao03"
+        android:layout_width="333dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="556dp"
+        android:background="@drawable/rounded_button_4"
+        android:backgroundTint="#4D4250"
+        android:fontFamily="@font/poppins_semibold"
+        android:paddingStart="65sp"
+        android:text="Tuberculose"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#FFFDFD"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="333dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="192dp"
+        android:background="@drawable/rounded_buttom_5"
+        android:backgroundTint="#B1A8B4"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/opcao01"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/opcao01"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/opcao02"
+        android:layout_width="333dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="448dp"
+        android:background="@drawable/rounded_button_4"
+        android:backgroundTint="#4D4250"
+        android:fontFamily="@font/poppins_semibold"
+        android:paddingStart="65sp"
+        android:text="Clamídia "
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="350dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/rounded_button_4"
+        android:backgroundTint="#4D4250"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Qual IST pode ser assintomática?"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:cornerRadius="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="333dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/rounded_buttom_5"
+        android:backgroundTint="#B1A8B4"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/opcao01"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/opcao01"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/opcao01"
+        android:layout_width="333dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="344dp"
+        android:background="@drawable/rounded_button_4"
+        android:backgroundTint="#4D4250"
+        android:fontFamily="@font/poppins_semibold"
+        android:paddingStart="65sp"
+        android:text="Gripe"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textLocale="2dp"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="59dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="4dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="@+id/button5"
+        app:layout_constraintTop_toTopOf="@+id/button5"
+        app:layout_constraintVertical_bias="0.434"
+        android:elevation="@dimen/cardview_default_elevation"
+        app:srcCompat="@drawable/a" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="59dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="4dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/button6"
+        app:layout_constraintStart_toStartOf="@+id/button6"
+        app:layout_constraintTop_toTopOf="@+id/button6"
+        app:layout_constraintVertical_bias="0.478"
+        android:elevation="@dimen/cardview_default_elevation"
+        app:srcCompat="@drawable/b" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="59dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="4dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/button8"
+        app:layout_constraintStart_toStartOf="@+id/button8"
+        app:layout_constraintTop_toTopOf="@+id/opcao03"
+        app:layout_constraintVertical_bias="0.44"
+        android:elevation="@dimen/cardview_default_elevation"
+        app:srcCompat="@drawable/c" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="59dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="4dp"
+        android:elevation="@dimen/cardview_default_elevation"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/button10"
+        app:layout_constraintStart_toStartOf="@+id/button10"
+        app:layout_constraintTop_toTopOf="@+id/button10"
+        app:layout_constraintVertical_bias="0.434"
+        app:srcCompat="@drawable/d" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

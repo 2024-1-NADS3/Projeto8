@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/inicio"
+        android:icon="@drawable/home_colorida"
+        android:title="Home"
+        />
+
+    <item
+        android:id="@+id/trilha"
+        android:icon="@drawable/icone_trilha"
+        android:title="Trilha" />
+
+    <item
+        android:icon="@drawable/icone_artigos"
+        android:title="Artigos" />
+
+    <item
+        android:id="@+id/perfil"
+        android:icon="@drawable/icone_perfil"
+        android:title="Perfil" />
+</menu>
