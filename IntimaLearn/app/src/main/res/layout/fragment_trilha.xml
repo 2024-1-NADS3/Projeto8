@@ -293,7 +293,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="18dp"
                 android:fontFamily="@font/poppins_extrabold"
-                android:text="Trilha"
+                android:text="Quiz Íntima Learn"
                 android:textColor="@color/paleta01"
                 android:textSize="24sp"
                 app:layout_constraintEnd_toEndOf="parent"
