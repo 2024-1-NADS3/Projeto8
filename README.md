@@ -122,6 +122,7 @@ Raiz<br>
 📁 IntimaLearn<br>
    &emsp; &emsp; ⤷ Backend<br>
    &emsp; &emsp; ⤷ Frontend<br>
+   &emsp;
 📄 Política de Privacidade <br>
   
 ## 🗃 Histórico de lançamentos
