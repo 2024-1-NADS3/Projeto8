@@ -36,7 +36,7 @@
         android:id="@+id/textView8"
         android:layout_width="342dp"
         android:layout_height="251dp"
-        android:layout_marginTop="165dp"
+        android:layout_marginTop="176dp"
         android:fontFamily="@font/poppins_semibold"
         android:text="A vida dos casais, as dificuldades para se relacionar, o desejo sexual e os desafios da convivência a dois, esses e outros temas fazem parte do podcast Relacionamentos e Sexualidade com \nMaria Helena Barros.  "
         android:textAlignment="center"
@@ -64,6 +64,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:srcCompat="@drawable/icone_artigos_quatro_1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

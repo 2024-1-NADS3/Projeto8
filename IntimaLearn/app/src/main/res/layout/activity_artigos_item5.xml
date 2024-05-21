@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Artigos_Item_5">
+
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="439dp"
+        android:layout_height="561dp"
+        android:layout_marginBottom="312dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/livro_5" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/retangulo_artigos" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="358dp"
+        android:layout_height="289dp"
+        android:layout_marginTop="176dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Esse livro trata o tema sob o prisma da psicanálise. Ressaltando os aspectos essenciais da sexualidade humana, traz uma breve história da transexualidade na medicina, na psicanálise e na cultura. Propõe discussões relevantes e pouco exploradas, como destransição e a relação entre homofobia e transexualidade."
+        android:textAlignment="center"
+        android:textColor="#B66E6F"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView18" />
+
+    <Button
+        android:id="@+id/visitarSite"
+        android:layout_width="230dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/rounded_buttom2"
+        android:backgroundTint="#F6D169"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Saber Mais"
+        android:textAllCaps="false"
+        android:textColor="#4D4250"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

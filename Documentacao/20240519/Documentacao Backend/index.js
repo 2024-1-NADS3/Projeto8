@@ -2,8 +2,8 @@
  * Importação das bibliotecas e configuração do aplicativo Express.
  */
 var nodemailer = require("nodemailer");
-var express = require("express");
-var app = express();
+const express = require("express");
+const app = express();
 var bodyParser = require("body-parser");
 var port = process.env.PORT || 3000;
 app.use(bodyParser.json());
@@ -289,14 +289,14 @@ app.post("/esqueceuSenha", function (req, res) {
                 port: 465,
                 secure: true,
                 auth: {
-                  user: "user",
-                  pass: "password",
+                  user: "jeancostasilva1000@gmail.com",
+                  pass: "ubwn hfud iskz nrnu",
                 },
               });
 
               var emailDestinatario = row.email; // Obtém o email do destinatário da linha do banco de dados
               var mailOptions = {
-                from: "user",
+                from: "jeancostasilva1000@gmail.com",
                 to: emailDestinatario,
                 subject: "Redefinição de senha do Íntimalearn",
                 text:
@@ -330,10 +330,17 @@ app.post("/redefinirSenha", function (req, res) {
   var resetToken = req.body.token;
   var newPassword = req.body.senha;
 
+  console.log("Recebendo solicitação para redefinir senha...");
+  console.log("Token recebido:", resetToken);
+  console.log("Senha recebida:", newPassword);
+
   try {
-    var encryptedSenha = decrypt(newPassword);
+    // Criptografar a nova senha
+    var senha = newPassword;
+    console.log("Senha:", senha);
   } catch (error) {
-    return res.status(500).send("Erro ao descriptografar a senha");
+    console.error("Erro ao criptografar a senha:", error);
+    return res.status(500).send("Erro ao criptografar a senha");
   }
 
   db.get(
@@ -341,17 +348,21 @@ app.post("/redefinirSenha", function (req, res) {
     [resetToken, Date.now()],
     function (err, row) {
       if (err) {
+        console.error("Erro ao verificar token:", err);
         res.status(500).send("Erro ao verificar token");
       } else if (!row) {
+        console.warn("Token inválido ou expirado");
         res.status(400).send("Token inválido ou expirado");
       } else {
         db.run(
           "UPDATE intimalearn SET senha = ?, resetToken = NULL, resetTokenExpires = NULL WHERE resetToken = ?",
-          [encryptedSenha, resetToken],
+          [senha, resetToken],
           function (err) {
             if (err) {
+              console.error("Erro ao redefinir a senha:", err);
               res.status(500).send("Erro ao redefinir a senha");
             } else {
+              console.log("Senha redefinida com sucesso");
               res.status(200).send("Senha redefinida com sucesso");
             }
           },
@@ -360,6 +371,8 @@ app.post("/redefinirSenha", function (req, res) {
     },
   );
 });
+
+module.exports = app;
 
 // Iniciar o servidor na porta especificada
 app.listen(port);

@@ -3,6 +3,7 @@ package com.example.intimalearn;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -65,7 +66,14 @@ public class EsqueceuSenhaActivity extends AppCompatActivity {
 
                     int responseCode = connection.getResponseCode();
                     if (responseCode == HttpURLConnection.HTTP_OK) {
-                        runOnUiThread(() -> Toast.makeText(EsqueceuSenhaActivity.this, "Email de redefinição de senha enviado com sucesso", Toast.LENGTH_SHORT).show());
+                        runOnUiThread(() -> {
+                            Toast.makeText(EsqueceuSenhaActivity.this, "Email de redefinição de senha enviado com sucesso", Toast.LENGTH_SHORT).show();
+                            new Handler().postDelayed(() -> {
+                                Intent intent = new Intent(EsqueceuSenhaActivity.this, RedefinirSenhaActivity.class);
+                                startActivity(intent);
+                                finish(); // Finaliza a atividade atual se necessário
+                            }, 3000); // 3000 milissegundos = 3 segundos
+                        });
                     } else {
                         runOnUiThread(() -> Toast.makeText(EsqueceuSenhaActivity.this, "Erro ao enviar email de redefinição", Toast.LENGTH_SHORT).show());
                     }

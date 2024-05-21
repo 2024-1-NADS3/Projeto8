@@ -18,9 +18,12 @@
   },
   "homepage": "https://github.com/codesandbox-app/static-template#readme",
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "mocha": "^10.4.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^7.0.0"
   },
   "dependencies": {
+    "assert": "^2.1.0",
     "body-parser": "^1.20.2",
     "crypto": "^1.0.1",
     "express": "^4.19.2",

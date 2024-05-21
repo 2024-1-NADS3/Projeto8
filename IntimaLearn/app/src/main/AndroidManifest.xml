@@ -26,6 +26,30 @@
             android:exported="false"
             android:theme="@style/AppTheme" />
         <activity
+            android:name=".Artigos_Item_3"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Artigos_Item_4"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Artigos_Item_5"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Artigos_Item_6"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Artigos_Item_7"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Artigos_Item_8"
+            android:exported="false"
+            android:theme="@style/AppTheme" />
+        <activity
             android:name=".Trilha_18_Tela_3"
             android:exported="false"
             android:theme="@style/AppTheme" />
