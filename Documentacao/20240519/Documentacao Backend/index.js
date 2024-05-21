@@ -1,4 +1,4 @@
-/**
+    /**
  * Importação das bibliotecas e configuração do aplicativo Express.
  */
 var nodemailer = require("nodemailer");
@@ -289,14 +289,14 @@ app.post("/esqueceuSenha", function (req, res) {
                 port: 465,
                 secure: true,
                 auth: {
-                  user: "jeancostasilva1000@gmail.com",
-                  pass: "ubwn hfud iskz nrnu",
+                  user: "email@gmail.com",
+                  pass: "",
                 },
               });
 
               var emailDestinatario = row.email; // Obtém o email do destinatário da linha do banco de dados
               var mailOptions = {
-                from: "jeancostasilva1000@gmail.com",
+                from: "email@gmail.com",
                 to: emailDestinatario,
                 subject: "Redefinição de senha do Íntimalearn",
                 text:
