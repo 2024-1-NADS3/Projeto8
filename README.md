@@ -115,6 +115,8 @@ Raiz<br>
    &emsp; &emsp; ⤷ 20240519<br>
       &emsp; &emsp; &emsp; ⤷ Documentacao Backend<br>
       &emsp; &emsp; &emsp; ⤷ Documentacao Frontend<br>
+   &emsp; &emsp; ⤷ Devops-Testes<br>
+   &emsp; &emsp; ⤷ Formulário-Extensão<br>
       &emsp;
 📁 Docs Google Play<br>
    &emsp; &emsp; ⤷ Arquivos necessários para cadastro na Google Play<br>
