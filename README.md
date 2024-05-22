@@ -10,6 +10,7 @@
 ## Integrantes: 
 <a href="https://www.linkedin.com/in/"> Carolina Gomes </a> <br>
 <a href="https://www.linkedin.com/in/jeancostasilva/"> Jean da Costa Silva</a> <br>
+<a href="https://www.linkedin.com/in/jeancostasilva/"> Demetrio Henrique Souza Cleto</a> <br>
                                                                                                             
 ## Professores Orientadores: 
 <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Felix Valente</a> <br>
