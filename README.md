@@ -104,8 +104,23 @@ npm install sqlite3
 **crypto:**
 ```sh
 npm install crypto
-```       
-
+```
+**assert:**
+```sh
+npm install assert
+```
+**supertest:**
+```sh
+npm install supertest
+```
+**nodemon:**
+```sh
+npm install nodemon
+```
+**mocha:**
+```sh
+npm install mocha
+```
 
 ## 🛠 Estrutura de pastas
 
