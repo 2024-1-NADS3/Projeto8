@@ -8,7 +8,7 @@
 
 
 ## Integrantes: 
-<a href="https://www.linkedin.com/in/"> Carolina Gomes </a> <br>
+<a href="https://www.linkedin.com/in/"> Caroline Gomes </a> <br>
 <a href="https://www.linkedin.com/in/jeancostasilva/"> Jean da Costa Silva</a> <br>
 <a href="https://www.linkedin.com/in/demetrio-henrique-souza-cleto-2b6496266/"> Demetrio Henrique Souza Cleto</a> <br>
                                                                                                             
