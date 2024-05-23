@@ -73,7 +73,39 @@ Para o desenvolvimento do app foi utilizado as seguintes tecnologias:<br><br>
 
 ## 🛠 Instalação
 
-Para configurar e executar o projeto localmente, siga estas etapas:
+### Requisitos: NodeJS, AndroidStudio
+
+Configuração do Backend (API)
+
+Clone o repositório e vá para o diretório Backend
+```sh
+git clone https://github.com/2024-1-NADS3/Projeto6.git
+cd src/backend
+```
+
+Abra o terminal e execute os comandos para instalar as dependências e iniciar o servidor
+```sh
+npm i
+node index
+```
+
+Configuração do Frontend (App Android)
+
+Clone o repositório
+```sh
+git clone https://github.com/2024-1-NADS3/Projeto8.git
+```
+
+Abra o Android Studio.
+Selecione "Open an existing Android Studio project" e navegue até o diretório Projeto8/src/Frontend.
+
+O Android Studio deve automaticamente instalar todas as dependências necessárias ao abrir o projeto. Certifique-se de que o Gradle esteja sincronizado.
+Configure o emulador ou dispositivo físico.
+
+Configure um emulador Android ou conecte um dispositivo físico via USB para testar a aplicação.
+Execute a aplicação
+
+Clique no botão "Run".
 
 ### Pré-requisitos
 
