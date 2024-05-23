@@ -137,11 +137,9 @@ Raiz<br>
 📁 Docs Google Play<br>
    &emsp; &emsp; ⤷ Arquivos necessários para cadastro na Google Play<br>
     &emsp;
-📁 IntimaLearn<br>
+📁 src<br>
    &emsp; &emsp; ⤷ Backend<br>
    &emsp; &emsp; ⤷ Frontend<br>
-   &emsp;
-📄 Política de Privacidade <br>
   
 ## 🗃 Histórico de lançamentos
 
